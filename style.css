@@ -1,0 +1,31 @@
+html {
+  font-size: 10px;
+  background: url(romantic-relationships.png) bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  border: 4px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+}
